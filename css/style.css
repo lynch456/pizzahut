@@ -1,0 +1,27 @@
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+@import "slide.css";
+@import "footer.css";
+@import "address.css";
+
+* {
+  word-break: keep-all;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+#container {
+  width: 100%;
+}
+.bold {
+  font-weight: 600;
+}
+.btn-hide {
+  display: none;
+}
+.pagination-active {
+  background-color: rgb(238, 0, 0);
+}

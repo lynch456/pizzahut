@@ -1,0 +1,89 @@
+#slide-show {
+  width: 100%;
+  max-width: 1920px;
+  padding-top: 100px;
+  position: relative;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+#slide-show ul {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.slide-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 0px;
+  width: 100%;
+}
+#swiper-btn_box {
+  width: 100%;
+  min-width: 1440px;
+  max-width: calc(1920px - 233px);
+  height: 0px;
+  position: absolute;
+  top: 55%;
+  transform: translate(6%);
+}
+.swiper-btn {
+  cursor: pointer;
+}
+#prev {
+  content: "";
+  background-image: url("../image/ic_arrow4.png");
+
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  transform: rotate(180deg);
+  position: absolute;
+  margin-top: -16px;
+  margin-left: 28px;
+  left: 0;
+}
+#next {
+  content: "";
+  background-image: url("../image/ic_arrow4.png");
+
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  position: absolute;
+  margin-top: -17px;
+  margin-left: 830px;
+  right: 0;
+}
+
+#main-pagination {
+  position: absolute;
+  display: flex;
+
+  bottom: 21%;
+  left: 15%;
+}
+#slide-count {
+  font-size: 24px;
+}
+#control-btn {
+  margin-left: 30px;
+}
+
+#control-btn button {
+  border: none;
+  width: 50px;
+  height: 36px;
+  background-color: inherit;
+}
+.dash {
+  padding: 0 5px;
+}
+#play {
+  background-image: url("../image/ic_play1.png");
+}
+#pause {
+  background-image: url("../image/ic_stop1.png");
+}
